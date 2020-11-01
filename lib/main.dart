@@ -13,8 +13,7 @@ class IdCard extends StatefulWidget {
 }
 
 class _IdCardState extends State<IdCard> {
-
-  int viewCounter = 0;
+  int viewCounter = 4;
 
   @override
   Widget build(BuildContext context) {
@@ -51,28 +50,36 @@ class _IdCardState extends State<IdCard> {
             ),
             Text(
               'Name',
-              style: TextStyle(color: Colors.grey,
-                  letterSpacing: 2.0,
-              ),
-            ),
-            SizedBox(height: 10.0,),
-            Text(
-              'Ketan Kadam',
               style: TextStyle(
-                  color: Colors.amberAccent[200],
-                  fontSize: 32.0,
-                  letterSpacing: 2.0,
-                  fontWeight: FontWeight.bold,
-              ),
-            ),
-            SizedBox(height: 40.0,),
-            Text(
-              'View Counter',
-              style: TextStyle(color: Colors.grey,
+                color: Colors.grey,
                 letterSpacing: 2.0,
               ),
             ),
-            SizedBox(height: 10.0,),
+            SizedBox(
+              height: 10.0,
+            ),
+            Text(
+              'Ketan Kadam',
+              style: TextStyle(
+                color: Colors.amberAccent[200],
+                fontSize: 32.0,
+                letterSpacing: 2.0,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+            SizedBox(
+              height: 40.0,
+            ),
+            Text(
+              'View Counter',
+              style: TextStyle(
+                color: Colors.grey,
+                letterSpacing: 2.0,
+              ),
+            ),
+            SizedBox(
+              height: 10.0,
+            ),
             Text(
               '$viewCounter',
               style: TextStyle(
@@ -82,21 +89,25 @@ class _IdCardState extends State<IdCard> {
                 fontWeight: FontWeight.bold,
               ),
             ),
-            SizedBox(height: 40.0,),
+            SizedBox(
+              height: 40.0,
+            ),
             Text(
               'Contact',
-              style: TextStyle(color: Colors.grey,
-                  letterSpacing: 2.0),
+              style: TextStyle(color: Colors.grey, letterSpacing: 2.0),
             ),
-            SizedBox(height: 10.0,),
-
+            SizedBox(
+              height: 10.0,
+            ),
             Row(
               children: <Widget>[
                 Icon(
                   Icons.phone,
                   color: Colors.grey[400],
                 ),
-                SizedBox(width: 10.0,),
+                SizedBox(
+                  width: 10.0,
+                ),
                 Text(
                   '8689814110',
                   style: TextStyle(
@@ -106,14 +117,18 @@ class _IdCardState extends State<IdCard> {
                 ),
               ],
             ),
-            SizedBox(height: 10.0,),
+            SizedBox(
+              height: 10.0,
+            ),
             Row(
               children: <Widget>[
                 Icon(
                   Icons.email,
                   color: Colors.grey[400],
                 ),
-                SizedBox(width: 10.0,),
+                SizedBox(
+                  width: 10.0,
+                ),
                 Text(
                   'ketank39@gmail.com',
                   style: TextStyle(
@@ -123,8 +138,6 @@ class _IdCardState extends State<IdCard> {
                 ),
               ],
             ),
-
-
           ],
         ),
       ),
